@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+
+    <EditText
+        android:id="@+id/et_user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/my_edit_text_border"
+        android:hint="1 or 2 or 3 or 4"
+        android:inputType="number"
+        android:padding="5dp"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/button_find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Find"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:backgroundTint="@android:color/holo_blue_dark" />
+
+
+</LinearLayout>
